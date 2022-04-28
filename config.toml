@@ -1,17 +1,16 @@
 baseURL = 'https://mathisloge.github.io/mathisloge'
-languageCode = 'de-DE'
+languageCode = 'en'
 title = '@mathisloge'
 theme = 'coder'
 
 paginate = 20
 
-pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 [params]
   author = "Mathis Logemann"
-  info = "x"
+  info = ""
   description = "Meine persönliche Website"
   keywords = "blog,developer,personal"
   avatarurl = "images/avatar.png"
@@ -50,6 +49,6 @@ pygmentscodefencesguesssyntax = true
   weight = 1
   url  = "posts/"
 [[menu.main]]
-  name = "About"
+  name = "Projects"
   weight = 2
-  url = "about/"
+  url = "projects/"
